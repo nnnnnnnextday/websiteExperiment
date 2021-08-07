@@ -1,0 +1,15 @@
+C:\Users\yyadmin\Documents\Visual Studio 2008\Projects\work2\work2\bin\work2.dll
+C:\Users\yyadmin\Documents\Visual Studio 2008\Projects\work2\work2\bin\work2.pdb
+C:\Users\yyadmin\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yyadmin\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\work2.dll
+C:\Users\yyadmin\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\work2.pdb
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work2\work2\bin\work2.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work2\work2\bin\work2.pdb
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\work2.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work2\work2\obj\Debug\work2.pdb
+C:\Users\sushi\Desktop\web\Web\实验\实验2\work2\work2\bin\work2.dll
+C:\Users\sushi\Desktop\web\Web\实验\实验2\work2\work2\bin\work2.pdb
+C:\Users\sushi\Desktop\web\Web\实验\实验2\work2\work2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sushi\Desktop\web\Web\实验\实验2\work2\work2\obj\Debug\work2.dll
+C:\Users\sushi\Desktop\web\Web\实验\实验2\work2\work2\obj\Debug\work2.pdb

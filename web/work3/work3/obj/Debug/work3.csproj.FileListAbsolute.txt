@@ -1,0 +1,10 @@
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work3\work3\bin\work3.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work3\work3\bin\work3.pdb
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work3\work3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work3\work3\obj\Debug\work3.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work3\work3\obj\Debug\work3.pdb
+C:\Users\sushi\Desktop\web\work3\work3\bin\work3.dll
+C:\Users\sushi\Desktop\web\work3\work3\bin\work3.pdb
+C:\Users\sushi\Desktop\web\work3\work3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sushi\Desktop\web\work3\work3\obj\Debug\work3.dll
+C:\Users\sushi\Desktop\web\work3\work3\obj\Debug\work3.pdb

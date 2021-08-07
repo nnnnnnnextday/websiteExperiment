@@ -1,0 +1,86 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>母版页示例</title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+	        <div id="logo">
+		        <h1>asp.net精品课程</h1>
+	        </div>
+	        <div id="menu">
+		        <ul>
+			        <li><a href="#">主页</a></li>
+			        <li><a href="#">教学资源</a></li>
+			        <li><a href="#">联系我们</a></li>
+			        <li><a href="#">帮助</a></li>
+		        </ul>
+	        </div>
+        </div>
+        
+        <div id="page">
+	        <div id="sidebar1" class="sidebar">
+		        <ul>
+		        <li id="Login">
+				        <h2>用户登录</h2>
+				        <div id="calendar_wrap">
+					        <table>
+                                <tr>
+                                    <td>
+                                        用户名：</td>
+                                    <td>
+                                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        密&nbsp;&nbsp;&nbsp; 码：</td>
+                                    <td>
+                                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Button ID="btnLogin" runat="server" Text="登录" />
+                                    </td>
+                                    <td>
+                                        <asp:Button ID="btnRegister" runat="server" Text="注册" />
+                                    </td>
+                                </tr>
+                            </table>
+				        </div>
+			        </li>
+			        <li>
+				        <h2>查找</h2>
+					        <div>
+						        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                                <asp:Button ID="btnFind" runat="server" Text="查找" />
+                            </div>
+			        </li>
+			        
+		        </ul>
+	        </div>
+	        <div id="content">
+	            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+	        </div>
+	        <div id="sidebar2" class="sidebar">
+		        <ul>
+			        <li>
+				        <h2>公告</h2>
+				        <p>公告内容</p>
+			        </li>
+		        </ul>
+	        </div>
+        </div>
+        <div id="footer">
+	        <p>&copy;版权信息&nbsp; 2009-2010</p>
+        </div>
+    </form>
+</body>
+</html>

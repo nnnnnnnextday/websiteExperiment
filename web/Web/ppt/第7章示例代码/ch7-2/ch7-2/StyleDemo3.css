@@ -1,0 +1,40 @@
+﻿ div
+ {
+      font-family: 楷体;
+      color: #FF0000;
+      background-color: #C0C0C0;
+      font-size: xx-large;
+  }
+  body
+  {
+      text-align: center;
+  }
+
+p
+{
+    color: #008000;
+    font-size: xx-large;
+    font-family: 幼圆;
+    background-color: #FFFF66;
+}
+#div1
+{
+    background-color: #99FFCC;
+    color: #008080;
+    font-family: 华文细黑;
+}
+#div1
+{
+    padding: 50px;
+    margin: 50px;
+}
+#div2
+{
+    padding: 30px;
+    margin: 0px;
+}
+b
+{
+    color: #800000;
+    background-color: #FFFF00;
+}

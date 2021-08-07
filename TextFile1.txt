@@ -1,0 +1,4 @@
+成功注册！
+
+用户：<% UserName %>
+密码：<% Password %>

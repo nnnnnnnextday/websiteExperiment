@@ -1,0 +1,5 @@
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work1\work1\bin\work1.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work1\work1\bin\work1.pdb
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work1\work1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work1\work1\obj\Debug\work1.dll
+C:\Users\sushi\Documents\Visual Studio 2008\Projects\work1\work1\obj\Debug\work1.pdb

@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/6-11-father.master" AutoEventWireup="true" CodeFile="6-11-child.master.cs" Inherits="_6_11_child" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:Panel runat="server" ID="panelMain" BackColor="lightyellow">
+        <h2>子母版页</h2>
+        <asp:Panel runat="server" ID="panel1" BackColor="lightblue">
+            <p>子母版页的内容控件</p>
+            <asp:ContentPlaceHolder ID="ChildContent" runat="server" />
+        </asp:Panel>        
+    </asp:Panel>
+</asp:Content>
+
+

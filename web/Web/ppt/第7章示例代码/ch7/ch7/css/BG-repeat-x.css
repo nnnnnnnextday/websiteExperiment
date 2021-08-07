@@ -1,0 +1,19 @@
+﻿body
+{ 
+background-image: url(../img/eg_bg_03.png);
+background-repeat: repeat-x;
+/*background-repeat: no-repeat;*/
+
+}
+#nav {margin-top:70px;}
+#nav ul li {
+      	float:left;
+      	      
+       margin:10px; 
+       padding:5px; 
+       color:maroon ;
+       list-style-type: none;/*去掉列表项左侧的圆点*/
+        }
+  #nav ul li a{
+       color:Maroon ;
+       }

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Web Developer Express 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebValidator", ".\WebValidator\", "{5B5636F0-CFAE-444D-A230-11A8E9ABEB0E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebValidator"
+		Debug.AspNetCompiler.PhysicalPath = ".\WebValidator\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebValidator\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebValidator"
+		Release.AspNetCompiler.PhysicalPath = ".\WebValidator\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebValidator\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1098"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B5636F0-CFAE-444D-A230-11A8E9ABEB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5636F0-CFAE-444D-A230-11A8E9ABEB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

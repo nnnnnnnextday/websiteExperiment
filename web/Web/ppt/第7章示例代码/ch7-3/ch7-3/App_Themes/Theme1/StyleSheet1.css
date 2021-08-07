@@ -1,0 +1,37 @@
+﻿/* Specify blanket rules for all elements */ 
+body {
+    font-size: 80%;
+    font-family: 'Lucida Grande',Verdana,sans-serif;
+    margin: 10px;
+    background-color:Blue ;
+} 
+/* Container for all page content */ 
+#container { 
+padding:10px; 
+border:1px solid #000; 
+background-color:#FFF; 
+} 
+/* Rules for headings */ 
+h1 { 
+font-size:150%; 
+} 
+h2 { 
+font-size:140%; 
+} 
+h3 { 
+  clear:right; 
+  padding-top:20px; 
+  font-size:120%; 
+  }  
+p { 
+font-size:100%; 
+line-height:150%; 
+}
+.image_float { 
+  float:right; 
+  margin:0 5px 5px 0; 
+  }
+.spacer { 
+  clear:right; 
+  }
+

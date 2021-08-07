@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Student">
+  <DataContextMoniker Name="/StudentDataContext" />
+  <nestedChildShapes>
+    <classShape Id="139873c5-77b7-4588-91d8-d6e220708244" absoluteBounds="2.125, 0.5, 1.5, 1.7199392791589099">
+      <DataClassMoniker Name="/StudentDataContext/StuInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ad3fe4a-a7d5-4104-bf7d-1f352eb80655" absoluteBounds="2.14, 0.96, 1.4700000000000002, 1.15993927915891" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0944d5cf-f29d-4243-b11d-13be095b0054" absoluteBounds="4.125, 0.625, 1.5, 1.1665538426240285">
+      <DataClassMoniker Name="/StudentDataContext/Major" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f12f654f-6ed3-4207-b098-3c74feaf17c0" absoluteBounds="4.1400000000000006, 1.085, 1.4700000000000002, 0.60655384262402845" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.125 : 1.20827692131201); (3.625 : 1.20827692131201)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StudentDataContext/Major/Major_StuInfo" />
+      <nodes>
+        <classShapeMoniker Id="0944d5cf-f29d-4243-b11d-13be095b0054" />
+        <classShapeMoniker Id="139873c5-77b7-4588-91d8-d6e220708244" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Student" Class="StudentDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Student.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="StudentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StuInfo" Member="StuInfo">
+    <Type Name="StuInfo">
+      <Column Name="StuNo" Type="System.String" DbType="VarChar(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Birth" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="MajorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Major_StuInfo" Member="Major" ThisKey="MajorId" OtherKey="MajorId" Type="Major" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Major" Member="Major">
+    <Type Name="Major">
+      <Column Name="MajorId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MajorName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Major_StuInfo" Member="StuInfo" ThisKey="MajorId" OtherKey="MajorId" Type="StuInfo" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,35 @@
+﻿/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+body {
+    font-size: 80%;
+    font-family: 'Lucida Grande',Verdana,sans-serif;
+    margin: 10px;
+    background-color: #CCC;
+} 
+/* Content */ 
+  #content { 
+    margin-right:40%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Sidebar */ 
+  #sidebar { 
+    float:right; 
+    width:36%; 
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    } 
+/* Footer */ 
+  #footer { 
+    clear:both; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    }

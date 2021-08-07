@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="work4.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+            <div>
+    
+        <br />
+    
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+        </asp:SiteMapPath>
+        <br />
+        
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <br />
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div id="NavTree">
+        <asp:TreeView ID="TreeView1" CssClass="treeview" runat="server" 
+                DataSourceID="SiteMapDataSource1" ShowExpandCollapse=false>
+        
+        </asp:TreeView>
+        </div>
+    
+        <br />
+        
+    
+    </div>
+    </div>
+    </form>
+</body>
+</html>

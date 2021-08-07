@@ -1,0 +1,171 @@
+body {
+	margin-top: 50px;
+	padding: 0;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #616161;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	color: #8C0209;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+/* Header */
+#header {
+	width: 1000px;
+	margin: 0 auto;
+	height: 150px;
+}
+
+
+/* logo */
+#logo
+{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 10px 0 70px;
+    background-color: #800000;
+}
+
+#logo h1
+{
+    float: left;
+    margin: 0;
+    color: #99FFCC;
+    padding: 25px 0 0 0;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+/* Menu */
+
+#menu
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    height: 50px;
+    background-color: #33CCCC;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a
+{
+    display: block;
+    float: left;
+    height: 32px;
+    margin: 0;
+    padding: 18px 30px 0 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Georgia, "Times New Roman" , Times, serif;
+    font-size: 12px;
+    color: #0000FF;
+}
+
+/* Page */
+
+#page {
+	width: 990px;
+	margin: 0 auto;
+	padding: 20px 5px;
+	background: #FFFFFF;
+}
+/* Content */
+
+#content {
+	float: left;
+	width: 500px;
+}
+#footer p
+{
+    margin: 0;
+    padding: 25px 0 0 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Sidebars */
+
+#sidebar1 {
+	float: left;
+}
+
+#sidebar2 {
+	float: right;
+}
+
+.sidebar {
+	float: left;
+	width: 250px;
+	padding: 0;
+	font-size: 12px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+}
+
+
+.sidebar li{
+	margin: 0 20px 0 15px;
+	padding: 8px 0px;
+	border-bottom: 1px #BBBBBB dashed;
+}
+
+
+.sidebar li h2 {
+	height: 30px;
+	margin: 0 0 0 0;
+	padding: 10px 15px 0px 15px;
+	background: #890208 url(images/img05.jpg) no-repeat left top;
+	letter-spacing: -1px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+/* Footer */
+
+#footer {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: center;
+}
+
+#footer p {
+	margin: 0;
+	padding: 25px 0 0 0;
+	text-align: center;
+	font-size: smaller;
+}

@@ -1,0 +1,61 @@
+﻿/* Specify blanket rules for all elements */ 
+  body { 
+    font-size:80%; 
+    font-family:'Lucida Grande',Verdana,sans-serif; 
+    margin:10px; 
+    } 
+/* Rules for headings */ 
+  h1 { 
+    font-size:150%; 
+    } 
+h2 { 
+  font-size:140%; 
+  } 
+h3 { 
+  font-size:120%; 
+  } 
+/* Default paragraph styles */ 
+  p { 
+    font-size:100%; 
+    line-height:150%; 
+     } 
+/* Masthead */ 
+  #masthead { 
+    margin:0 0 10px 0; 
+    padding:10px; 
+    border:1px solid #000; 
+    background-color:#CCC; 
+    } 
+/* Content */ 
+  #content { 
+    margin-left:30%; 
+   margin-right:30%; 
+   margin-bottom:10px; 
+   padding:10px; 
+   border:1px solid #000; 
+   }
+/* Sidebar B */ 
+  #sidebar_b { 
+    float:right; 
+	    width:25%;    /*该属性是一个相对值  */
+	    margin-bottom:10px; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    } 
+/* Sidebar A */ 
+  #sidebar_a { 
+    float:left; 
+    width:25%; /*该属性是一个相对值  */
+    margin-bottom:10px; 
+    padding:10px; 
+    border:1px solid #000; 
+    }
+
+	/* Footer */ 
+	  #footer { 
+	    clear:both; 
+	    padding:10px; 
+	    border:1px solid #000; 
+	    background-color:#CCC; 
+	    } 
+     

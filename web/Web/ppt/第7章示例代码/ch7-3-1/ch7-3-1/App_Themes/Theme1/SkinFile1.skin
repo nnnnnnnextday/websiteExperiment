@@ -1,0 +1,26 @@
+﻿<asp:Label runat="server" BackColor="#33CCCC" Font-Italic="True" 
+            Font-Names="Arial Black" Font-Size="Large" ForeColor="#993366" ></asp:Label>
+
+<asp:Label SkinID="BlueSkin" runat="server" BackColor="#FFFFCC" Font-Names="华文楷体" 
+        ForeColor="#660033" Font-Size="Large"  ></asp:Label>
+        
+        
+       <asp:TextBox  runat="server" BackColor="#9999FF" 
+    Font-Names="Arial Unicode MS" Font-Size="Medium" ForeColor="#996600"></asp:TextBox>
+ <asp:Button runat="server" BackColor="#669900" />
+ <asp:Calendar  runat="server" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" 
+            Font-Size="9pt" ForeColor="Black" Height="250px" NextPrevFormat="ShortMonth" 
+            Width="330px">
+            <SelectedDayStyle BackColor="#333399" ForeColor="White" />
+            <TodayDayStyle BackColor="#999999" ForeColor="White" />
+            <OtherMonthDayStyle ForeColor="#999999" />
+            <DayStyle BackColor="#CCCCCC" />
+            <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
+            <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" 
+                Height="8pt" />
+            <TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" 
+                Font-Size="12pt" ForeColor="White" Height="12pt" />
+        </asp:Calendar>
+ 
+ 

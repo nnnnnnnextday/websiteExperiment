@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="HomePage.aspx" title="首页"  description="">
+      <siteMapNode url="" title="管理员"  description="">
+        <siteMapNode url="Admin/Default.aspx" title="管理员主页">
+          
+        </siteMapNode>
+        <siteMapNode url="Admin/Manage.aspx" title="会员管理">
+          
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Register.aspx" title="注册"></siteMapNode>
+      <siteMapNode url="" title="会员区"  description="" >
+        <siteMapNode url="Member/default.aspx" title="会员主页">
+          
+        </siteMapNode>
+        <siteMapNode url="Member/ChPasswd.aspx" title="修改密码">
+          
+        </siteMapNode>
+        
+        
+      </siteMapNode>
+      <siteMapNode url="PwdRec.aspx" title="密码找回">
+        
+      </siteMapNode>              
+    </siteMapNode>
+</siteMap>

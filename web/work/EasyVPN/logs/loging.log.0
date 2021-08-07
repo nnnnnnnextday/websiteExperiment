@@ -1,0 +1,478 @@
+[2021-04-14 11:42:03] [严重] AppLogger:Set log level to:DEBUG 
+[2021-04-14 11:42:04] [信息] UpgradeMain:Local version: 1.5.4 
+[2021-04-14 11:42:04] [严重] UpgradeMain.checkTestFlag:Failed to load app.properties: C:\Users\yyadmin\AppData\Roaming\yyvpn\\app.properties 
+[2021-04-14 11:42:04] [信息] UpgradeMain:start to runUI. 
+[2021-04-14 11:42:04] [严重] getIPForOvpnYYCom Fail::Failed to load app.properties: C:\Users\yyadmin\AppData\Roaming\yyvpn\\app.properties 
+[2021-04-14 11:42:04] [严重] b:Set log level to:DEBUG 
+[2021-04-14 11:42:04] [信息] AppMain:app run.. 
+[2021-04-14 11:42:04] [信息] AppMain:build number:6 
+[2021-04-14 11:42:04] [严重] i18nUtil:getLanguage:zh 
+[2021-04-14 11:42:04] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-14 11:42:04] [信息] ServerOptionsPresenter:queryUserServerOptionFromNet userName is null. 
+[2021-04-14 11:42:04] [信息] n:cached machine identify id: , filename:77110C330761F6777753F279B51CFF69 
+[2021-04-14 11:42:05] [信息] Util:uuidString:0D85C4C3-6B8F-B329-FEDF-3C7C3F2FEC6F 
+[2021-04-14 11:42:05] [信息] Util:serailNumberString:0000_0000_0100_0000_E4D2_5CDA_52C0_5101.W9AP1G0D 
+[2021-04-14 11:42:05] [信息] n:machine identify id:30F2BA98BC8D688049094FACDC7848A2F09EB62E2FD07E5E00DEC57BF262AFBAFEB959B7D4642FCB 
+[2021-04-14 11:42:05] [信息] ISPLocationUtil:GET ISP Location info:https://ovpn.duowan.com/api_ext/ovpn/ip_api 
+[2021-04-14 11:42:05] [信息] ServerRouterConfig:queryDnsIpListFromNet info from:https://ovpn.duowan.com/api_ext/ovpn/legal_ip 
+[2021-04-14 11:42:05] [严重] ISPLocationUtil:getISPLocation response:{"msg":"success","code":0,"data":{"utc_offset":"UTC+8","timezone":"Asia/Shanghai","latitude":"23.12911","continent_code":"AP","country_code":"CN","city_name":"广州","country_name":"中国","isp_domain":"联通","region_name":"广东","idd_code":"86","owner_domain":"","longitude":"113.264385","china_admin_code":"440100"},"query":"58.248.229.145"} 
+[2021-04-14 11:42:05] [信息] GSLBUtil:ovpn.yy.com:[163.177.156.228, 103.227.121.100] 
+[2021-04-14 11:42:05] [信息] ServerRouterConfig:save info to:C:\Program Files (x86)\EasyVPN\\route.config 
+[2021-04-14 11:42:06] [信息] GSLBUtil:ovpn-mgr.yy.com:[10.12.37.5] 
+[2021-04-14 11:42:07] [严重] AppMain: 
+[2021-04-14 11:42:23] [信息] LoginPanel:select option:0 
+[2021-04-14 11:42:23] [信息] ISPLocationUtil:HAS_RESPONED:true COUNTRY_CODE:CN HAS_NOTIFIED:false 
+[2021-04-14 11:42:32] [信息] LoginPanel:select option:0 
+[2021-04-14 11:42:32] [信息] ISPLocationUtil:HAS_RESPONED:true COUNTRY_CODE:CN HAS_NOTIFIED:true 
+[2021-04-14 11:42:32] [信息] ConnectProcess:Start connects 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Client process starts 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Receive from server: connect C:\Users\yyadmin\AppData\Roaming\yyvpn\config\77110C330761F6777753F279B51CFF69.ovpn huangdewei <password no show> 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] receive srvIpList:[easyvp.duowan.com] 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] ######client start success###### 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Frame=512/2048/512 mssfix-ctrl=1250 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] UNUSED OPTIONS 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 4 [sndbuf] [0]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 5 [rcvbuf] [0]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 8 [resolv-retry] [infinite]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 9 [nobind]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 10 [persist-key]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 11 [persist-tun]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 15 [block-outside-dns]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 17 [verb] [3]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] EVENT: err=false name=RESOLVE info='' 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Contacting 112.93.115.68:1194 via UDP 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] EVENT: err=false name=WAIT info='' 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Connecting to [easyvp.duowan.com]:1194 (112.93.115.68) via UDPv4 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] EVENT: err=false name=CONNECTING info='' 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Tunnel Options:V4,dev-type tun,link-mtu 1601,tun-mtu 1500,proto UDPv4,keydir 1,cipher AES-256-CBC,auth SHA512,keysize 256,tls-auth,key-method 2,tls-client 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Creds: Username/Password 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Peer Info: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] IV_VER=3.git:master 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] IV_PLAT=win 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] IV_NCP=2 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] IV_TCPNL=1 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] IV_PROTO=2 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] VERIFY OK : depth=1 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] cert. version     : 3 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] serial number     : CD:36:45:94:82:84:25:4A 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] issuer name       : CN=ChangeMe 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] subject name      : CN=ChangeMe 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] issued  on        : 2019-01-11 07:56:13 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] expires on        : 2029-01-08 07:56:13 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] signed using      : RSA with SHA-256 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] RSA key size      : 2048 bits 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] basic constraints : CA=true 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] key usage         : Key Cert Sign, CRL Sign 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] VERIFY OK : depth=0 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] cert. version     : 3 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] serial number     : CB:22:1A:4A:01:D5:A1:DA:A0:83:73:8D:66:A5:33:4C 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] issuer name       : CN=ChangeMe 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] subject name      : CN=server 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] issued  on        : 2019-01-11 07:56:13 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] expires on        : 2029-01-08 07:56:13 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] signed using      : RSA with SHA-256 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] RSA key size      : 2048 bits 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] basic constraints : CA=false 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] subject alt name  : server 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] key usage         : Digital Signature, Key Encipherment 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] ext key usage     : TLS Web Server Authentication 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] SSL Handshake: TLSv1.2/TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Session is ACTIVE 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] EVENT: err=false name=GET_CONFIG info='' 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Sending PUSH_REQUEST to server... 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] OPTIONS: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 0 [dhcp-option] [DNS] [172.26.9.10]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 1 [dhcp-option] [DNS] [172.25.9.10]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 2 [dhcp-option] [DNS] [114.114.114.114]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 3 [redirect-gateway] [def1] [bypass-dhcp]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 4 [ping] [15]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 5 [ping-restart] [60]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 6 [route-gateway] [172.28.193.129]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 7 [topology] [subnet]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 8 [ifconfig] [172.28.193.132] [255.255.255.192]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 9 [peer-id] [2]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] 10 [cipher] [AES-256-GCM]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] PROTOCOL OPTIONS: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   cipher: AES-256-GCM 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   digest: SHA512 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   compress: NONE 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   peer ID: 2 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] EVENT: err=false name=ASSIGN_IP info='' 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] CAPTURED OPTIONS: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Session Name: easyvp.duowan.com 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Layer: OSI_LAYER_3 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Remote Address: 112.93.115.68 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Tunnel Addresses: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   172.28.193.132/26 -> 172.28.193.129 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Reroute Gateway: IPv4=1 IPv6=0 flags=[ ENABLE REROUTE_GW DEF1 BYPASS_DHCP IPv4 ] 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Block IPv6: no 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Add Routes: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Exclude Routes: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] DNS Servers: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   172.26.9.10 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   172.25.9.10 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]   114.114.114.114 
+[2021-04-14 11:42:32] [信息] b:[Opvn client] Search Domains: 
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:32] [信息] b:[Opvn client] proxy_auto_config_url  
+[2021-04-14 11:42:32] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] Receive from server:areuok 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] imok 
+[2021-04-14 11:42:33] [信息] b:[ProcessHelper] Client process alive 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] TAP ADAPTERS: 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] guid='{AD71A913-E060-4407-9241-29B62DE67F4E}' index=13 name='±???l??' 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] Open TAP device "±???l??" PATH="\\.\Global\{AD71A913-E060-4407-9241-29B62DE67F4E}.tap" SUCCEEDED 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] TAP-Windows Driver Version 9.24 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ActionDeleteAllRoutesOnInterface iface_index=13 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip set interface 13 metric=1 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip set address 13 static 172.28.193.132 255.255.255.192 gateway=172.28.193.129 store=active 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip add route 112.93.115.68/32 15 172.28.18.254 store=active 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip add route 0.0.0.0/1 13 172.28.193.129 store=active 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip add route 128.0.0.0/1 13 172.28.193.129 store=active 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip set dnsservers 13 static 172.26.9.10 register=primary validate=no 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip add dnsservers 13 172.25.9.10 2 validate=no 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] netsh interface ip add dnsservers 13 114.114.114.114 3 validate=no 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ActionWFP openvpn_app_path=C:\Program Files (x86)\EasyVPN\jre\bin\yyvpn_java.exe tap_index=13 enable=1 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] permit IPv4 DNS requests from OpenVPN app 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] permit IPv6 DNS requests from OpenVPN app 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] block IPv4 DNS requests from other apps 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] block IPv6 DNS requests from other apps 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] allow IPv4 traffic from TAP 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] allow IPv6 traffic from TAP 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] ipconfig /flushdns 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] Windows IP ? 
+[2021-04-14 11:42:33] [信息] b:[Opvn client] Connected via TUN_WIN 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:33] [信息] b:[Opvn client] EVENT: err=false name=CONNECTED info='huangdewei@easyvp.duowan.com:1194 (112.93.115.68) via /UDPv4 on TUN_WIN/172.28.193.132/ gw=[172.28.193.129/]' 
+[2021-04-14 11:42:33] [信息] b:[Opvn client]  
+[2021-04-14 11:42:34] [信息] Util:uuidString:0D85C4C3-6B8F-B329-FEDF-3C7C3F2FEC6F 
+[2021-04-14 11:42:34] [信息] Util:serailNumberString:0000_0000_0100_0000_E4D2_5CDA_52C0_5101.W9AP1G0D 
+[2021-04-14 11:42:34] [严重] MyHttpURLConnection:Connection to [https://ovpn.duowan.com/metrics/api/v1/connect_metrics?ver=1.5.4&sys=4&osver=10.0&mac=77110C330761F6777753F279B51CFF69&reqdata=%255B%257B%2522scode%2522%253A50217%252C%2522uri%2522%253A%2522connect%2522%252C%2522reqtime%2522%253A1720%252C%2522ret%2522%253A%25220%2522%252C%2522rtime%2522%253A1618371754259%257D%255D&act=mmetric&flatdata=%255B%255D&counterdata=%255B%255D&sjp=dw_huangdewei&sdkver=1.0&model=Windows+10&time=1618371754&clienttime=1618371754&net=lan&user=huangdewei&key=0c4e654b29ccc439126078a9635850fe],No route to host: connect 
+[2021-04-14 11:42:34] [信息] a:Metrics report response:null 
+[2021-04-14 11:42:41] [信息] ServerRouterConfig:queryDnsIpListFromNet info from:https://ovpn.duowan.com/api_ext/ovpn/legal_ip 
+[2021-04-14 11:42:41] [信息] ServerRouterConfig:save info to:C:\Program Files (x86)\EasyVPN\\route.config 
+[2021-04-14 11:42:41] [严重] ServerOptionsPresenter:queryUserServerOptionFromNet response:{"msg":"success","code":0,"data":[]} 
+[2021-04-14 11:42:41] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-14 11:42:48] [信息] b:[Opvn client] Receive from server:areuok 
+[2021-04-14 11:42:48] [信息] b:[Opvn client] imok 
+[2021-04-14 11:42:48] [信息] b:[ProcessHelper] Client process alive 
+[2021-04-14 11:42:51] [信息] b:[Opvn client] TUN Read Error: ???????????ò??ó??ò???ó??????? I/O ? 
+[2021-04-14 11:42:51] [信息] b:[Opvn client] TUN Error: TAP adapter is disabled 
+[2021-04-14 11:42:51] [信息] b:[Opvn client]  
+[2021-04-14 11:42:51] [信息] b:[Opvn client] EVENT: err=true name=TUN_IFACE_DISABLED info='TAP adapter is disabled' 
+[2021-04-14 11:42:51] [警告] b:TUN_IFACE_DISABLED 
+[2021-04-14 11:42:51] [信息] ConnectProcess:sendStopToClient:true mPrimaryDisConnectType:null type:虚拟网卡不可用 disconnected:false 
+[2021-04-14 11:42:51] [信息] ProcessServer:stopClient reason:虚拟网卡不可用 
+[2021-04-14 11:42:51] [信息] ProcessServer:waitStopResponse:4 
+[2021-04-14 11:42:51] [信息] ProcessServer:killClientProcess 
+[2021-04-14 11:42:51] [信息] ConnectProcess:close type:虚拟网卡不可用 
+[2021-04-14 11:42:51] [信息] ProcessServer:OpenVpn3Process read exit,stdout 
+[2021-04-14 11:42:51] [信息] ProcessServer:OpenVpn3Process read exit,stdout 
+[2021-04-14 11:42:51] [信息] b:[Opvn client]  
+[2021-04-14 11:42:51] [信息] b:[Opvn client] EVENT: err=false name=DISCONNECTED info='' 
+[2021-04-14 11:42:51] [信息] ConnectProcess:sendStopToClient:false mPrimaryDisConnectType:虚拟网卡不可用 type:收到vpn子进程disconnect消息 disconnected:true 
+[2021-04-14 11:42:51] [信息] ConnectProcess:repeating close type:收到vpn子进程disconnect消息 
+[2021-04-14 11:42:51] [信息] b:[Opvn client]  
+[2021-04-14 11:42:51] [信息] b:[ProcessHelper] Heartbeat timer stop 
+[2021-04-14 11:42:51] [信息] b:[Opvn client] Receive from server:stop 
+[2021-04-14 11:42:51] [信息] b:[Opvn client] client to stop 
+[2021-04-14 11:42:51] [信息] b:[ProcessHelper] To kill process pid(10700), result(true) 
+[2021-04-14 11:42:51] [信息] b:[Opvn client] EVENT: Kill Connect Process End 
+[2021-04-14 11:42:51] [信息] ConnectProcess:sendStopToClient:false mPrimaryDisConnectType:虚拟网卡不可用 type:收到vpn子进程disconnect消息 disconnected:true 
+[2021-04-14 11:42:51] [信息] ConnectProcess:repeating close type:收到vpn子进程disconnect消息 
+[2021-04-14 11:42:51] [信息] a:Metrics report response:{"msg": "success", "code": 200} 
+[2021-04-14 11:42:51] [信息] f:feedback: {"appId":"yy_vpn","sign":"","data":{"productVer":"1.5.4","name":"huangdewei","phoneType":"Windows 10","contactInfo":"huangdewei","feedback":"#huangdewei#uri:invalidusage,returncode:TUN_IFACE_DISABLED,timeInMs:0","reportType":"UFB"}} 
+[2021-04-14 11:42:51] [信息] com.yy.pm.openvpn3.util_pc_android.Util:zip log end:return zip file 
+[2021-04-14 11:42:51] [严重] FeedbackUtil:start to upload file 
+[2021-04-14 11:42:52] [信息] FeedbackUtil:feedback response: code:204 
+[2021-04-14 11:42:52] [信息] a:Metrics-Feedback report succeeded 
+[2021-04-14 11:42:53] [信息] PingReport:{"gw":"172.28.193.129","code":0,"os":"Windows 10","data":[{"avg_delay":9.1,"max_delay":12,"ip":"10.12.35.14","loss_rate":0,"host":"git.duowan.com","min_delay":1}],"server_ip":"112.93.115.68","server_port":"1194","arch":"amd64","is_release":true,"username":"huangdewei","virtual_ip":"172.28.193.132"} 
+[2021-04-14 11:45:58] [信息] ConnectProcess:sendStopToClient:true mPrimaryDisConnectType:虚拟网卡不可用 type:退出App disconnected:true 
+[2021-04-14 11:45:58] [信息] ProcessServer:stopClient reason:退出App 
+[2021-04-14 11:45:58] [信息] ProcessServer:skip killClientProcess 
+[2021-04-14 11:45:58] [信息] ConnectProcess:repeating close type:退出App 
+[2021-04-14 11:45:58] [警告] h:_________Quit_________ 
+[2021-04-14 12:00:32] [严重] AppLogger:Set log level to:DEBUG 
+[2021-04-14 12:00:32] [信息] UpgradeMain:Local version: 1.5.4 
+[2021-04-14 12:00:32] [信息] UpgradeMain:start to runUI. 
+[2021-04-14 12:00:32] [严重] b:Set log level to:DEBUG 
+[2021-04-14 12:00:32] [信息] AppMain:app run.. 
+[2021-04-14 12:00:32] [信息] AppMain:build number:6 
+[2021-04-14 12:00:32] [严重] i18nUtil:getLanguage:zh 
+[2021-04-14 12:00:32] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-14 12:00:32] [严重] ServerOptionsPresenter:queryUserServerOptionFromNet response:{"msg":"success","code":0,"data":[]} 
+[2021-04-14 12:00:32] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-14 12:00:33] [信息] ISPLocationUtil:GET ISP Location info:https://ovpn.duowan.com/api_ext/ovpn/ip_api 
+[2021-04-14 12:00:33] [信息] ServerRouterConfig:queryDnsIpListFromNet info from:https://ovpn.duowan.com/api_ext/ovpn/legal_ip 
+[2021-04-14 12:00:33] [严重] ISPLocationUtil:getISPLocation response:{"msg":"success","code":0,"data":{"utc_offset":"UTC+8","timezone":"Asia/Shanghai","latitude":"23.12911","continent_code":"AP","country_code":"CN","city_name":"广州","country_name":"中国","isp_domain":"联通","region_name":"广东","idd_code":"86","owner_domain":"","longitude":"113.264385","china_admin_code":"440100"},"query":"58.248.229.145"} 
+[2021-04-14 12:00:33] [信息] ServerRouterConfig:save info to:C:\Program Files (x86)\EasyVPN\\route.config 
+[2021-04-14 12:00:34] [信息] GSLBUtil:ovpn.yy.com:[163.177.156.228, 103.227.121.100] 
+[2021-04-14 12:00:34] [信息] GSLBUtil:ovpn-mgr.yy.com:[10.12.37.5] 
+[2021-04-14 12:00:34] [严重] AppMain:null 
+[2021-04-14 12:00:35] [信息] LoginPanel:select option:0 
+[2021-04-14 12:00:35] [信息] ISPLocationUtil:HAS_RESPONED:true COUNTRY_CODE:CN HAS_NOTIFIED:false 
+[2021-04-14 12:00:35] [信息] ConnectProcess:Start connects 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Client process starts 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Receive from server: connect C:\Users\yyadmin\AppData\Roaming\yyvpn\config\77110C330761F6777753F279B51CFF69.ovpn huangdewei <password no show> 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] receive srvIpList:[easyvp.duowan.com] 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] ######client start success###### 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Frame=512/2048/512 mssfix-ctrl=1250 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] UNUSED OPTIONS 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 4 [sndbuf] [0]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 5 [rcvbuf] [0]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 8 [resolv-retry] [infinite]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 9 [nobind]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 10 [persist-key]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 11 [persist-tun]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 15 [block-outside-dns]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 17 [verb] [3]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] EVENT: err=false name=RESOLVE info='' 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Contacting 112.93.115.69:1194 via UDP 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] EVENT: err=false name=WAIT info='' 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Connecting to [easyvp.duowan.com]:1194 (112.93.115.69) via UDPv4 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] EVENT: err=false name=CONNECTING info='' 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Tunnel Options:V4,dev-type tun,link-mtu 1601,tun-mtu 1500,proto UDPv4,keydir 1,cipher AES-256-CBC,auth SHA512,keysize 256,tls-auth,key-method 2,tls-client 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Creds: Username/Password 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Peer Info: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] IV_VER=3.git:master 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] IV_PLAT=win 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] IV_NCP=2 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] IV_TCPNL=1 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] IV_PROTO=2 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] VERIFY OK : depth=1 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] cert. version     : 3 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] serial number     : CD:36:45:94:82:84:25:4A 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] issuer name       : CN=ChangeMe 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] subject name      : CN=ChangeMe 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] issued  on        : 2019-01-11 07:56:13 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] expires on        : 2029-01-08 07:56:13 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] signed using      : RSA with SHA-256 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] RSA key size      : 2048 bits 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] basic constraints : CA=true 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] key usage         : Key Cert Sign, CRL Sign 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] VERIFY OK : depth=0 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] cert. version     : 3 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] serial number     : CB:22:1A:4A:01:D5:A1:DA:A0:83:73:8D:66:A5:33:4C 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] issuer name       : CN=ChangeMe 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] subject name      : CN=server 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] issued  on        : 2019-01-11 07:56:13 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] expires on        : 2029-01-08 07:56:13 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] signed using      : RSA with SHA-256 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] RSA key size      : 2048 bits 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] basic constraints : CA=false 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] subject alt name  : server 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] key usage         : Digital Signature, Key Encipherment 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] ext key usage     : TLS Web Server Authentication 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] SSL Handshake: TLSv1.2/TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Session is ACTIVE 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] EVENT: err=false name=GET_CONFIG info='' 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Sending PUSH_REQUEST to server... 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] OPTIONS: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 0 [dhcp-option] [DNS] [172.26.9.10]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 1 [dhcp-option] [DNS] [172.25.9.10]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 2 [dhcp-option] [DNS] [114.114.114.114]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 3 [redirect-gateway] [def1] [bypass-dhcp]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 4 [ping] [15]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 5 [ping-restart] [60]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 6 [route-gateway] [172.28.185.129]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 7 [topology] [subnet]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 8 [ifconfig] [172.28.185.135] [255.255.255.192]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 9 [peer-id] [5]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] 10 [cipher] [AES-256-GCM]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] PROTOCOL OPTIONS: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   cipher: AES-256-GCM 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   digest: SHA512 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   compress: NONE 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   peer ID: 5 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] EVENT: err=false name=ASSIGN_IP info='' 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] CAPTURED OPTIONS: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Session Name: easyvp.duowan.com 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Layer: OSI_LAYER_3 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Remote Address: 112.93.115.69 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Tunnel Addresses: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   172.28.185.135/26 -> 172.28.185.129 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Reroute Gateway: IPv4=1 IPv6=0 flags=[ ENABLE REROUTE_GW DEF1 BYPASS_DHCP IPv4 ] 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Block IPv6: no 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Add Routes: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Exclude Routes: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] DNS Servers: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   172.26.9.10 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   172.25.9.10 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]   114.114.114.114 
+[2021-04-14 12:00:35] [信息] b:[Opvn client] Search Domains: 
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:35] [信息] b:[Opvn client] proxy_auto_config_url  
+[2021-04-14 12:00:35] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] Receive from server:areuok 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] imok 
+[2021-04-14 12:00:36] [信息] b:[ProcessHelper] Client process alive 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] TAP ADAPTERS: 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] guid='{AD71A913-E060-4407-9241-29B62DE67F4E}' index=13 name='±???l??' 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] Open TAP device "±???l??" PATH="\\.\Global\{AD71A913-E060-4407-9241-29B62DE67F4E}.tap" SUCCEEDED 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] TAP-Windows Driver Version 9.24 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ActionDeleteAllRoutesOnInterface iface_index=13 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip set interface 13 metric=1 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip set address 13 static 172.28.185.135 255.255.255.192 gateway=172.28.185.129 store=active 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip add route 112.93.115.69/32 15 172.28.18.254 store=active 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip add route 0.0.0.0/1 13 172.28.185.129 store=active 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip add route 128.0.0.0/1 13 172.28.185.129 store=active 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ??¨?? 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip set dnsservers 13 static 172.26.9.10 register=primary validate=no 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip add dnsservers 13 172.25.9.10 2 validate=no 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] netsh interface ip add dnsservers 13 114.114.114.114 3 validate=no 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ActionWFP openvpn_app_path=C:\Program Files (x86)\EasyVPN\jre\bin\yyvpn_java.exe tap_index=13 enable=1 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] permit IPv4 DNS requests from OpenVPN app 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] permit IPv6 DNS requests from OpenVPN app 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] block IPv4 DNS requests from other apps 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] block IPv6 DNS requests from other apps 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] allow IPv4 traffic from TAP 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] allow IPv6 traffic from TAP 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] ipconfig /flushdns 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] Windows IP ? 
+[2021-04-14 12:00:36] [信息] b:[Opvn client] Connected via TUN_WIN 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:36] [信息] b:[Opvn client] EVENT: err=false name=CONNECTED info='huangdewei@easyvp.duowan.com:1194 (112.93.115.69) via /UDPv4 on TUN_WIN/172.28.185.135/ gw=[172.28.185.129/]' 
+[2021-04-14 12:00:36] [信息] b:[Opvn client]  
+[2021-04-14 12:00:37] [信息] Util:uuidString:0D85C4C3-6B8F-B329-FEDF-3C7C3F2FEC6F 
+[2021-04-14 12:00:37] [信息] Util:serailNumberString:0000_0000_0100_0000_E4D2_5CDA_52C0_5101.W9AP1G0D 
+[2021-04-14 12:00:37] [信息] a:Metrics report response:{"msg": "success", "code": 200} 
+[2021-04-14 12:00:44] [信息] ServerRouterConfig:queryDnsIpListFromNet info from:https://ovpn.duowan.com/api_ext/ovpn/legal_ip 
+[2021-04-14 12:00:44] [严重] ServerOptionsPresenter:queryUserServerOptionFromNet response:{"msg":"success","code":0,"data":[]} 
+[2021-04-14 12:00:44] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-14 12:00:44] [信息] ServerRouterConfig:save info to:C:\Program Files (x86)\EasyVPN\\route.config 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] Receive from server:areuok 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] imok 
+[2021-04-14 12:00:51] [信息] b:[ProcessHelper] Client process alive 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] TUN Read Error: ???????????ò??ó??ò???ó??????? I/O ? 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] TUN Error: TAP adapter is disabled 
+[2021-04-14 12:00:51] [信息] b:[Opvn client]  
+[2021-04-14 12:00:51] [信息] b:[Opvn client] EVENT: err=true name=TUN_IFACE_DISABLED info='TAP adapter is disabled' 
+[2021-04-14 12:00:51] [警告] b:TUN_IFACE_DISABLED 
+[2021-04-14 12:00:51] [信息] ConnectProcess:sendStopToClient:true mPrimaryDisConnectType:null type:虚拟网卡不可用 disconnected:false 
+[2021-04-14 12:00:51] [信息] ProcessServer:stopClient reason:虚拟网卡不可用 
+[2021-04-14 12:00:51] [信息] ProcessServer:waitStopResponse:4 
+[2021-04-14 12:00:51] [信息] ProcessServer:killClientProcess 
+[2021-04-14 12:00:51] [信息] ConnectProcess:close type:虚拟网卡不可用 
+[2021-04-14 12:00:51] [信息] b:[Opvn client]  
+[2021-04-14 12:00:51] [信息] b:[Opvn client] EVENT: err=false name=DISCONNECTED info='' 
+[2021-04-14 12:00:51] [信息] ConnectProcess:sendStopToClient:false mPrimaryDisConnectType:虚拟网卡不可用 type:收到vpn子进程disconnect消息 disconnected:true 
+[2021-04-14 12:00:51] [信息] ConnectProcess:repeating close type:收到vpn子进程disconnect消息 
+[2021-04-14 12:00:51] [信息] b:[Opvn client]  
+[2021-04-14 12:00:51] [信息] b:[ProcessHelper] Heartbeat timer stop 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] Receive from server:stop 
+[2021-04-14 12:00:51] [信息] b:[Opvn client] client to stop 
+[2021-04-14 12:00:51] [信息] b:[ProcessHelper] To kill process pid(13072), result(true) 
+[2021-04-14 12:00:52] [信息] b:[Opvn client] EVENT: Kill Connect Process End 
+[2021-04-14 12:00:52] [信息] ConnectProcess:sendStopToClient:false mPrimaryDisConnectType:虚拟网卡不可用 type:收到vpn子进程disconnect消息 disconnected:true 
+[2021-04-14 12:00:52] [信息] ConnectProcess:repeating close type:收到vpn子进程disconnect消息 
+[2021-04-14 12:00:52] [信息] ProcessServer:OpenVpn3Process read exit,stdout 
+[2021-04-14 12:00:52] [信息] ProcessServer:OpenVpn3Process read exit,stdout 
+[2021-04-14 12:00:52] [信息] a:Metrics report response:{"msg": "success", "code": 200} 
+[2021-04-14 12:00:52] [信息] f:feedback: {"appId":"yy_vpn","sign":"","data":{"productVer":"1.5.4","name":"huangdewei","phoneType":"Windows 10","contactInfo":"huangdewei","feedback":"#huangdewei#uri:invalidusage,returncode:TUN_IFACE_DISABLED,timeInMs:0","reportType":"UFB"}} 
+[2021-04-14 12:00:52] [信息] com.yy.pm.openvpn3.util_pc_android.Util:zip log end:return zip file 
+[2021-04-14 12:00:52] [严重] FeedbackUtil:start to upload file 
+[2021-04-14 12:00:52] [信息] FeedbackUtil:feedback response: code:204 
+[2021-04-14 12:00:52] [信息] a:Metrics-Feedback report succeeded 
+[2021-04-14 12:00:56] [信息] PingReport:{"gw":"172.28.185.129","code":0,"os":"Windows 10","data":[{"avg_delay":6.1,"max_delay":12,"ip":"10.12.35.14","loss_rate":0,"host":"git.duowan.com","min_delay":1}],"server_ip":"112.93.115.69","server_port":"1194","arch":"amd64","is_release":true,"username":"huangdewei","virtual_ip":"172.28.185.135"} 
+[2021-04-14 13:13:17] [信息] ConnectProcess:sendStopToClient:true mPrimaryDisConnectType:虚拟网卡不可用 type:退出App disconnected:true 
+[2021-04-14 13:13:17] [信息] ProcessServer:stopClient reason:退出App 
+[2021-04-14 13:13:17] [信息] ProcessServer:skip killClientProcess 
+[2021-04-14 13:13:17] [信息] ConnectProcess:repeating close type:退出App 
+[2021-04-14 13:13:17] [警告] h:_________Quit_________ 
+[2021-04-23 19:20:25] [严重] AppLogger:Set log level to:DEBUG 
+[2021-04-23 19:20:26] [信息] UpgradeMain:Local version: 1.5.4 
+[2021-04-23 19:20:26] [信息] UpgradeMain:start to runUI. 
+[2021-04-23 19:20:26] [严重] b:Set log level to:DEBUG 
+[2021-04-23 19:20:26] [信息] AppMain:app run.. 
+[2021-04-23 19:20:26] [信息] AppMain:build number:6 
+[2021-04-23 19:20:26] [严重] i18nUtil:getLanguage:zh 
+[2021-04-23 19:20:26] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-23 19:20:26] [严重] ServerOptionsPresenter:queryUserServerOptionFromNet response:{"msg":"success","code":0,"data":[]} 
+[2021-04-23 19:20:26] [信息] LoginPannel:server option is null, set invisible 
+[2021-04-23 19:20:27] [信息] ISPLocationUtil:GET ISP Location info:https://ovpn.duowan.com/api_ext/ovpn/ip_api 
+[2021-04-23 19:20:27] [信息] ServerRouterConfig:queryDnsIpListFromNet info from:https://ovpn.duowan.com/api_ext/ovpn/legal_ip 
+[2021-04-23 19:20:27] [严重] ISPLocationUtil:getISPLocation response:{"msg":"success","code":0,"data":{"utc_offset":"UTC+8","timezone":"Asia/Shanghai","latitude":"23.12911","continent_code":"AP","country_code":"CN","city_name":"广州","country_name":"中国","isp_domain":"联通","region_name":"广东","idd_code":"86","owner_domain":"","longitude":"113.264385","china_admin_code":"440100"},"query":"58.248.229.150"} 
+[2021-04-23 19:20:27] [信息] GSLBUtil:ovpn.yy.com:[163.177.156.228, 103.227.121.100] 
+[2021-04-23 19:20:27] [信息] ServerRouterConfig:save info to:C:\Program Files (x86)\EasyVPN\\route.config 
+[2021-04-23 19:20:27] [信息] GSLBUtil:ovpn-mgr.yy.com:[10.12.37.5] 
+[2021-04-23 19:20:28] [严重] AppMain:null 
+[2021-04-23 19:20:29] [信息] ConnectProcess:sendStopToClient:true mPrimaryDisConnectType:null type:退出App disconnected:true 
+[2021-04-23 19:20:29] [信息] ProcessServer:stopClient reason:退出App 
+[2021-04-23 19:20:29] [信息] ProcessServer:skip killClientProcess 
+[2021-04-23 19:20:29] [信息] ConnectProcess:repeating close type:退出App 
+[2021-04-23 19:20:29] [警告] h:_________Quit_________ 

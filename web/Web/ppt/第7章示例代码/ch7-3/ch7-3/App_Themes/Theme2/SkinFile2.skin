@@ -1,0 +1,2 @@
+﻿<asp:Label runat="server" BackColor="#FFFFCC" Font-Names="华文楷体" 
+        ForeColor="#33CC33" font-size:Larger Text="SkinFile2中设置的Label控件的皮肤"></asp:Label>

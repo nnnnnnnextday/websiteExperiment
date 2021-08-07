@@ -1,0 +1,65 @@
+body {
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+    font-family: Fantasy;
+    font-size: 8px;
+    color: #3E3B36;
+    background-color: #FFFFFF;
+    
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight:  lighter;
+	color: #000000;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    color: #000000;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p, ul {
+    margin-top: 0;
+    line-height: 200%;
+}
+.path
+{
+ font-size:20px;
+}
+.page
+{
+	background-color: #6495ED;
+	margin-left:300px;
+	margin-right:300px;
+	margin-top:12px;
+	margin-bottom:0px;
+	height:780px;
+	
+}
+.NavTree
+{
+	background-color:#CD5C5C;
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	 font-size:20px;
+
+}
+
+.content
+{
+    font-size:25px;
+	margin-top:50px;
+	margin-left:100px;
+	
+}

@@ -1,2 +1,3 @@
 # websiteExperiment
-Web课程实验
+JNU University Web course experiment
+Web课程实验项目
